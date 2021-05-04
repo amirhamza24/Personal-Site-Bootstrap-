@@ -1,0 +1,504 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bootstrap Practice</title>
+
+    <!-- bootstrap-4-cdn -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+
+    <!-- font-awesome-icon-link -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <!-- google-fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Handlee&family=Montserrat&family=Roboto&display=swap" rel="stylesheet">
+
+    <!-- font-awesome-link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" />
+
+    <!-- css-file-link -->
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+
+    <div class="container">
+
+        <!-- header-section-start -->
+        <header>
+            <nav class="navbar navbar-expand-md">
+
+                <button class="navbar-toggler" type="button" data-toggle="collapse"         data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                    <span><i class="fa fa-bars navbar-icon" aria-hidden="true"></i></span>
+                </button>
+      
+                <a class="navbar-brand" href="#">
+                    <img src="images/fullname1.png" alt="logo">
+                </a>
+
+                <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item active">
+                            <a class="nav-link text-center text-md-left" href="#">Home</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link text-center text-md-left" href="#tutorial">Tutorials</a>
+                        </li>
+                        
+                        <li class="nav-item">
+                            <a class="nav-link text-center text-md-left" href="#feedback">Feedback</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link text-center text-md-left" href="#contact-me">Contact Me</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link text-center text-md-left" href="#about-me">About Me</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+
+            <section id="banner">
+                <div class="banner-container d-flex justify-content-center align-items-center">
+                    <div class="banner-contents text-center">
+                        <h1 class="font-weight-bold text-white mb-5">Learn Something New !!!</h1>
+                        <button class="btn btn-primary btn-lg mr-3" onclick="location.href='#tutorial'"><i class="fas fa-play mr-2"></i> Tutorials</button>
+
+                        <button class="btn btn-primary btn-lg" onclick="window.open('link')" class="request-callback"> <i class="fab fa-youtube mr-2"></i> Subscribe</button>
+                    </div>
+                </div>
+            </section>
+        </header>
+        <!-- header-section-end -->
+
+        <!-- main-section-start -->
+        <main>
+            <!-- features-section-start -->
+            <section id="features" class="text-center">
+                <div class="row">
+                    <div class="col-lg-4 d-block d-lg-flex">
+                        <div class="features-col">
+                            <i class="fas fa-hand-holding-usd fa-3x rounded-circle icon-style"></i>
+
+                            <h5 class="font-weight-bold">Free to use</h5>
+                            <p class="small">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odit architecto reprehenderit ipsum velit! Inventore expedita sapiente cum, tenetur.</p>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4 d-block d-lg-flex">
+                        <div class="features-col">
+                            <i class="fab fa-free-code-camp fa-3x rounded-circle icon-style"></i>
+
+                            <h5 class="font-weight-bold">Easy to Learn</h5>
+                            <p class="small">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odit architecto reprehenderit ipsum velit!</p>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4 d-block d-lg-flex">
+                        <div class="features-col">
+                            <i class="far fa-comment-dots fa-3x rounded-circle icon-style"></i>
+
+                            <h5 class="font-weight-bold">Fast Response</h5>
+                            <p class="small">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odit architecto reprehenderit ipsum velit! Inventore expedita sapiente.</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- features-section-end -->
+
+            <!-- about-me-section-start -->
+            <section id="about-me">
+                <div class="section-title">
+                    <h3 class="text-center">About Me</h3>
+                    <hr class="hr-style" style="border-color: #000;">
+                </div>
+
+                <div class="row mb-4">
+                    <div class="col-lg-5">
+                        <div class="basic-desc text-center text-lg-left">
+                            <i class="far fa-user fa-2x rounded-circle icon-style"></i>
+                            <h5 class="font-weight-bolder">Personal Info</h5>
+                            <p>Name: Amir Hamza Ridoy</p>
+                            <p>Profession: Student</p>
+                            <p>Phone: +8801620xxxxxx</p>
+                            <p>Email: sample@gmail.com</p>
+                            <p>Current Address: Dhaka, Bangladesh</p>
+                            <p>Website: <a href="https://www.websiteName.com" target="_blank">www.websitename.com</a></p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-lg-7"></div>
+
+                    <div class="col-lg-5">
+                        <div class="achieve-desc text-center text-lg-left">
+                            <i class="fas fa-trophy fa-2x rounded-circle icon-style"></i>
+
+                            <h5 class="font-weight-bold">Achievements</h5>
+                            <p><span>100% Tution Waiver: </span> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magni, iste!</p>
+
+                            <p><span>Public Bank Scholarship: </span> Lorem ipsum dolor sit, amet consectetur adipisicing elit. Natus pariatur aliquid eaque. Tempore, debitis praesentium odit dolorem unde deleniti enim.</p>
+
+                            <p><span>Silver Button: </span>From Youtube, because of 100,000 Subscribers. And current Subscribers are more than 300,000.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-lg-5 mt-4">
+                        <div class="basic-desc text-center text-lg-left">
+                            <i class="fas fa-graduation-cap fa-2x rounded-circle icon-style"></i>
+                            <h5 class="font-weight-bolder">Education</h5>
+                            <p class="font-weight-bold">HSC (2016-2018)</p>
+                            <p>Govt. Shahid Bulbul College Pabna</p>
+                            <p>Ataikula Road, Pabna Sadar, Pabna 6600</p>
+                            <p>Pabna, Bangladesh</p>
+                        </div>
+
+                        <div class="basic-desc text-center text-lg-left mt-4">
+                            <p class="font-weight-bold">BSc in Computer Science and Engr.(2019-running)</p>
+                            <p>Stamford University Bangladesh</p>
+                            <p>Siddheshwari Road, Dhaka</p>
+                            <p>Dhaka, Bangladesh</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-lg-7"></div>
+                    <div class="col-lg-5">
+                        <div class="skill-desc text-center text-lg-left">
+                            <i class="fas fa-briefcase fa-2x rounded-circle icon-style mt-5"></i>
+                            <h5 class="font-weight-bold">Skills</h5>
+
+                            <table>
+                                <tr>
+                                    <td>HTML</td>
+                                    <td>
+                                        <span class="star">
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="far fa-star"></i>
+                                        </span>
+                                    </td>
+                                </tr>
+
+                                <tr>
+                                    <td>CSS</td>
+                                    <td>
+                                        <span class="star">
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star-half"></i>
+                                            <i class="far fa-star"></i>
+                                        </span>
+                                    </td>
+                                </tr>
+
+                                <tr>
+                                    <td>Bootstrap</td>
+                                    <td>
+                                        <span class="star">
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="far fa-star"></i>
+                                            <i class="far fa-star"></i>
+                                        </span>
+                                    </td>
+                                </tr>
+
+                                <tr>
+                                    <td>JavaScript</td>
+                                    <td>
+                                        <span class="star">
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="far fa-star"></i>
+                                            <i class="far fa-star"></i>
+                                        </span>
+                                    </td>
+                                </tr>
+
+                                <tr>
+                                    <td>JQuery</td>
+                                    <td>
+                                        <span class="star">
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star-half"></i>
+                                            <i class="far fa-star"></i>
+                                        </span>
+                                    </td>
+                                </tr>
+
+                                <tr>
+                                    <td>React.JS</td>
+                                    <td>
+                                        <span class="star">
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="far fa-star"></i>
+                                            <i class="far fa-star"></i>
+                                        </span>
+                                    </td>
+                                </tr>
+                            </table>
+
+                        </div>
+                    </div>
+                </div>
+
+            </section>
+            <!-- about-me-section-end -->
+
+
+            <!-- tutorial-section-start -->
+            <div id="tutorial">
+                <div class="section-title">
+                    <h3 class="text-center">Tutorial</h3>
+                    <hr class="hr-style" style="border-color: #000;">
+                </div>
+
+                <div class="row mb-4">
+                    <div class="col-lg-3 col-md-6 col-sm-12">
+                        <div class="card mb-5 m-lg-0">
+                            <img class="card-img-top" src="images/html1.jpg" alt="">
+    
+                            <div class="card-body text-center">
+                                <h3 class="card-title font-weight-bold">HTML</h3>
+    
+                                <a href="#" class="stretched-link"></a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 col-md-6 col-sm-12">
+                        <div class="card mb-5 m-lg-0">
+                            <img class="card-img-top" src="images/html1.jpg" alt="">
+    
+                            <div class="card-body text-center">
+                                <h3 class="card-title font-weight-bold">HTML</h3>
+    
+                                <a href="#" class="stretched-link"></a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 col-md-6 col-sm-12">
+                        <div class="card mb-5 m-lg-0">
+                            <img class="card-img-top" src="images/html1.jpg" alt="">
+    
+                            <div class="card-body text-center">
+                                <h3 class="card-title font-weight-bold">HTML</h3>
+    
+                                <a href="#" class="stretched-link"></a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 col-md-6 col-sm-12">
+                        <div class="card mb-5 m-lg-0">
+                            <img class="card-img-top" src="images/html1.jpg" alt="">
+    
+                            <div class="card-body text-center">
+                                <h3 class="card-title font-weight-bold">HTML</h3>
+    
+                                <a href="#" class="stretched-link"></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="row mb-3">
+                    <div class="col-lg-3 col-md-6 col-sm-12">
+                        <div class="card mb-5 m-lg-0">
+                            <img class="card-img-top" src="images/html1.jpg" alt="">
+    
+                            <div class="card-body text-center">
+                                <h3 class="card-title font-weight-bold">HTML</h3>
+    
+                                <a href="#" class="stretched-link"></a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 col-md-6 col-sm-12">
+                        <div class="card mb-5 m-lg-0">
+                            <img class="card-img-top" src="images/html1.jpg" alt="">
+    
+                            <div class="card-body text-center">
+                                <h3 class="card-title font-weight-bold">HTML</h3>
+    
+                                <a href="#" class="stretched-link"></a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 col-md-6 col-sm-12">
+                        <div class="card mb-5 m-lg-0">
+                            <img class="card-img-top" src="images/html1.jpg" alt="">
+    
+                            <div class="card-body text-center">
+                                <h3 class="card-title font-weight-bold">HTML</h3>
+    
+                                <a href="#" class="stretched-link"></a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 col-md-6 col-sm-12">
+                        <div class="card mb-5 m-lg-0">
+                            <img class="card-img-top" src="images/html1.jpg" alt="">
+    
+                            <div class="card-body text-center">
+                                <h3 class="card-title font-weight-bold">HTML</h3>
+    
+                                <a href="#" class="stretched-link"></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- tutorial-section-end -->
+
+
+            <!-- feedback-section-start -->
+            <section id="feedback">
+                <div class="section-title">
+                    <h3 class="text-center text-white">Feedback</h3>
+                    <hr class="hr-style">
+                </div>
+
+                <div class="row">
+                    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel" data-interval="2000" data-pause="hover">
+                        <ol class="carousel-indicators">
+                            <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                            <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                            <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                        </ol>
+
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <p>1. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Earum dolores vel atque unde et maiores iste quis inventore eligendi dolore.</p>
+
+                                <img class="rounded-circle feedback-img mb-3" src="images/baby.jpg" alt="pro-pic">
+
+                                <h5 class="font-weight-bold">Amir Hamza</h5>
+                            </div>
+
+                            <div class="carousel-item">
+                                <p>2. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Earum dolores vel atque unde et maiores iste quis inventore eligendi dolore.</p>
+
+                                <img class="rounded-circle feedback-img mb-3" src="images/baby.jpg" alt="pro-pic">
+
+                                <h5 class="font-weight-bold">Amir Hamza</h5>
+                            </div>
+
+                            <div class="carousel-item">
+                                <p>3. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Earum dolores vel atque unde et maiores iste quis inventore eligendi dolore.</p>
+
+                                <img class="rounded-circle feedback-img mb-3" src="images/baby.jpg" alt="pro-pic">
+
+                                <h5 class="font-weight-bold">Amir Hamza</h5>
+                            </div>
+                        </div>
+
+                        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="sr-only">Previous</span>
+                        </a>
+
+                        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="sr-only">Next</span>
+                        </a>
+                    </div>
+                </div>
+            </section>
+            <!-- feedback-section-end -->
+
+            <!-- contact-me-section-start -->
+            <section id="contact-me">
+                <div class="section-title">
+                    <h3 class="text-center text-white">Contact Me</h3>
+                    <hr class="hr-style">
+                </div>
+
+                <div class="row">
+                    <div class="col-lg-12">
+                        <form action="mailto:amir853232@gmail.com" method="POST" enctype="text/plain" class="was-validated">
+                            <div class="form-group mb-1">
+                                <label for="fullname">Full Name</label>
+                                <input type="text" class="form-control" name="fullname" required>
+                                <div class="valid-feedback">Valid</div>
+                                <div class="invalid-feedback text-white">Please, Enter Full Name, before submitting the Form!!</div>
+                            </div>
+
+                            <div class="form-group mb-1">
+                                <label for="email">Email</label>
+                                <input type="email" class="form-control" name="email" required>
+                                <div class="valid-feedback">Valid</div>
+                                <div class="invalid-feedback text-white">Please, Enter Email, before submitting the form!!</div>
+                            </div>
+
+                            <div class="form-group mb-3">
+                                <label for="message">Message</label>
+                                <textarea style="resize: none" name="" id="" cols="30" rows="6" class="form-control"></textarea>
+                            </div>
+
+                            <div class="form-group text-center mb-1">
+                                <input type="reset" class="btn btn-primary mr-3" value="Reset">
+                                <input type="submit" class="btn btn-primary" value="Submit">
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </section>
+            <!-- contact-me-section-end -->
+
+        </main>
+        <!-- main-section-end -->
+
+
+        <!-- footer-section-start -->
+        <footer>
+            <div class="row text-white">
+                <div class="col-lg-6 text-center text-lg-left mb-3 mb-lg-0">
+                    <p class="small mb-0 mt-1">&copy; Copyright <i class="far fa-heart"></i> Amir Hamza 2021</p>
+                </div>
+
+                <div class="col-lg-6 text-center text-lg-right">
+                    <a href="#">Home</a>
+                    <a href="#"><i class="fab fa-facebook"></i></a>
+                    <a href="#"><i class="fab fa-youtube"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                </div>
+            </div>
+        </footer>
+        <!-- footer-section-end -->
+
+    </div>
+
+
+    <!-- bootstrap-4-cdn -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
